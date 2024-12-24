@@ -4,13 +4,15 @@ public class JavaMethodsStringPm {
 
     public static void main(String[] args) {
         longMethod(1251515125125L);
-        byteMethod((short) 129);
-        shortMethod((short) 100);
+        byteMethod((byte) 122);
+        shortMethod((short) 32000);
         doubleMethod(110.205172727);
         floatMethod(12.21f);
         boolMethod(true);
         charactMethod('R');
         uniqueMethod("Hey!!!");
+        intMethod(12);
+
 
 //        showAge();
 
@@ -39,15 +41,19 @@ public class JavaMethodsStringPm {
     }
 
     public static void shortMethod(Short shortnum){
-        System.out.println("So you have gold kgs only: "+shortnum);
+        System.out.println("So you have chemical kgs only: "+shortnum);
     }
 
-    public static void byteMethod(Short byteNumber){
+    public static void byteMethod(Byte byteNumber){
         System.out.println("So you have gold kgs only: "+byteNumber);
     }
 
     public static void longMethod(Long longnumber) {
         System.out.println("Here that bank deposit is: "+longnumber);
+    }
+
+    public static void intMethod(Integer intnumber) {
+        System.out.println("number of audience is: "+intnumber);
     }
 
 
