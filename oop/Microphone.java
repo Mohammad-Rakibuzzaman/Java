@@ -8,9 +8,11 @@ public class Microphone {
     String color;
     int model;
 
+
     //creating constructor is the good way also we can create object and do that like previously. this is efficient
     //create constructor shortcut command (Alt + insert)
 
+    // --------------constructor-------------------
     public Microphone(String name, String color, int model) {
         this.name = name;
         this.color = color;

@@ -6,10 +6,9 @@ public class Rectangle {
 
     //creating contractor
 
-
-    public Rectangle(int length, int width) {
-        this.length = length;
-        this.width = width;
+    public Rectangle(int lengths, int widths) {
+        this.length = lengths;
+        this.width = widths;
     }
 
     public int area() {
