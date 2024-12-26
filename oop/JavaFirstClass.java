@@ -32,14 +32,35 @@ public class JavaFirstClass {
 
         Microphone panasonic = new Microphone("PanaCam", "Aqua", 12412512);
         Microphone sonyerecson = new Microphone("Sonyexpresso", "Yellow Oral", 2515112);
+//        sonyerecson.color = "Red nash";
+
+//        System.out.println(sonyerecson.color);
+        panasonic.setName("Orangapple");
+        panasonic.setColor("Orange Light");
+        panasonic.setModel(422212);
+
+        //after setting getter and setter
+//        panasonic.setColor("Green");
+        System.out.println("New mic: " + panasonic.getColor());
+        System.out.println("New mic: " + panasonic.getName());
+        System.out.println("New mic: " + panasonic.getModel());
+
+        System.out.println(panasonic.showDescription());
+
 
         System.out.println(panasonic);
         System.out.println(sonyerecson);
 
 
         Rectangle sayedabadDhk = new Rectangle(11, 2);
-        System.out.println(sayedabadDhk.width);
-        System.out.println(sayedabadDhk.length);
+
+        System.out.println(sayedabadDhk.getWidth());
+        System.out.println(sayedabadDhk.getLength());
+
+        System.out.println(sayedabadDhk.showDescription());
+
+//        System.out.println(sayedabadDhk.width);
+//        System.out.println(sayedabadDhk.length);
 
 
 

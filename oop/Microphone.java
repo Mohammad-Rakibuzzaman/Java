@@ -4,9 +4,9 @@ package com.example.learnjava.oop;
 //whole Microphone class is a blueprint of Microphone object
 public class Microphone {
     //instance variables/ properties/ fields
-    String name;
-    String color;
-    int model;
+    private String name;
+    private String color;
+    private int model;
 
 
     //creating constructor is the good way also we can create object and do that like previously. this is efficient
@@ -19,8 +19,32 @@ public class Microphone {
         this.model = model;
     }
 
+    public String getName() {
+        return name;
+    }
 
-    //Actions methods
+    //getter and setter is used for making things private make sure not accessable by everyone
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public int getModel() {
+        return model;
+    }
+
+    public void setModel(int model) {
+        this.model = model;
+    }
+
+    //Actions/behaviors methods
 
     public void turnOff() {
         System.out.println( this.name + " Turn Off");
