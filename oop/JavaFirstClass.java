@@ -2,6 +2,21 @@ package com.example.learnjava.oop;
 
 public class JavaFirstClass {
     public static void main(String[] args) {
+        //everything classes like String comes from java object
+        String name = "Lucy";
+//        name.
+//here we can find getclass which method is from object package
+
+        //lets explore another one string builder
+
+        StringBuilder stringbuilder = new StringBuilder();
+        stringbuilder.append("Hey my name is " + name);
+        stringbuilder.append(", And I'm 27 years old!!!");
+
+        System.out.println(Math.abs(-8));
+        System.out.println(Math.PI);
+        System.out.println(stringbuilder);
+
 
 //        Microphone microphone = new Microphone(); //instantiating our obj. so instantiate is creating an object from its actual class or Blueprint
 //        microphone.color = "Black";
@@ -32,6 +47,11 @@ public class JavaFirstClass {
 
         Microphone panasonic = new Microphone("PanaCam", "Aqua", 12412512);
         Microphone sonyerecson = new Microphone("Sonyexpresso", "Yellow Oral", 2515112);
+
+
+
+        System.out.println(panasonic);
+        System.out.println(sonyerecson);
 //        sonyerecson.color = "Red nash";
 
 //        System.out.println(sonyerecson.color);
@@ -63,8 +83,17 @@ public class JavaFirstClass {
 //        System.out.println(sayedabadDhk.length);
 
 
+        System.out.println("--------------Starting overloading constructors---------------");
+        //overloading constructors
 
+        Microphone newMic = new Microphone("NewMic", "Green", 12412512);
+        //this is new create for implicit constructor invoking our new empty constructor
+        Microphone otherMic = new Microphone();
 
+        otherMic.setColor("Transparent Blue");
+        System.out.println(otherMic.getColor());
+
+        Microphone aforTech = new Microphone("A4techMini", 1251251);
 
 
     }

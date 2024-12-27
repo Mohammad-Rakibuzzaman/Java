@@ -8,6 +8,8 @@ public class Microphone {
     private String color;
     private int model;
 
+    //to get the implicit constructor again, thats mean to make constructor for each new object
+    public Microphone(){}
 
     //creating constructor is the good way also we can create object and do that like previously. this is efficient
     //create constructor shortcut command (Alt + insert)
@@ -16,6 +18,12 @@ public class Microphone {
     public Microphone(String name, String color, int model) {
         this.name = name;
         this.color = color;
+        this.model = model;
+    }
+
+    //we can create as much constructor as possible by using overloading constructors
+    public Microphone(String name, int model){
+        this.name = name;
         this.model = model;
     }
 
