@@ -96,14 +96,41 @@ public class JavaFirstClass {
         Microphone aforTech = new Microphone("A4techMini", 1251251);
 
         System.out.println("---------practice example of inheritance of box and rect---------");
-        Box box = new Box();
-        box.setLength(120);
-        box.setWidth(12);
-        box.setHeight(14);
-        System.out.println(box.getHeight());
-        System.out.println(box.getLength());
-        System.out.println(box.getWidth());
+//        Box box = new Box();
+//        box.setLength(120);
+//        box.setWidth(12);
+//        box.setHeight(14);
+//        System.out.println(box.getHeight());
+//        System.out.println(box.getLength());
+//        System.out.println(box.getWidth());
+
+        System.out.println("------Inheritance assignment final method overriding------");
+
+        Box showresult = new Box(13, 20, 10);
+        Box showanotherresult = new Box(10, 10, 10);
+//        showresult.setWidth(13);
+//        showresult.setLength(20);
+//        showresult.setHeight(10);
+
+
+        System.out.println("Total area of our box is: " + showresult.area() + " sqft.");
+        System.out.println("Total area of our box is: " + showanotherresult.area() + " sqft.");
+
+
+        System.out.println("-----Final answer of box overriding area of box -----");
+        Box box = new Box(13, 20, 10);
+//        System.out.println("Box area: " + box.showResult());
+        box.showResult();
 
     }
+//    public static void showResult() {
+//        Box box = new Box(10, 10, 10);
+//        System.out.println("Box area: " + box.area());
+//    }
+//
+//    public static void main(String[] args) {
+//        showResult();
+//    }
+
 
 }

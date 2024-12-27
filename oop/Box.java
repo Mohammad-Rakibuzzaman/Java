@@ -10,6 +10,17 @@ public class Box extends Rectangle{
 //        this.height = height;
 //    }
 
+    public Box(int lengths, int widths, int height) {
+        super(lengths, widths);
+        this.height = height;
+    }
+
+
+//    public Box(int height) {
+//        this.height = height;
+//    }
+
+
 
     public int getHeight() {
         return this.height;
@@ -18,4 +29,24 @@ public class Box extends Rectangle{
     public void setHeight(int height) {
         this.height = height;
     }
+
+
+    @Override
+    public int area() {
+        return 2 * (super.area() + getLength() * this.height + getWidth() * this.height);
+    }
+
+    public void showResult() {
+        Box box = new Box(13, 20, 10);
+        System.out.println("Box area: " + area());
+    }
+
+
+//    public static void main(String[] args) {
+//        Box box = new Box(13, 20, 10);
+//        box.showResult();
+//    }
+
+
+
 }

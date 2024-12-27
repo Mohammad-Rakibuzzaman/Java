@@ -44,7 +44,7 @@ public class Rectangle {
 
     public String showDescription(){
         return "The length is: " + this.length + " and width is: " + this.width
-                + ". Finally total area is: " + this.area();
+                + ". Finally total area of rectangle is: " + this.area();
     }
 
 

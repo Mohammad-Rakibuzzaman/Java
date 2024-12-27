@@ -29,8 +29,13 @@ public class mainClass {
             manager.setId(10021);
             manager.setAnnualSalary(45000);
 
+            //so overriding super class methods technique increasing salary of Killos
             System.out.println(manager.getAnnualSalary() + "|| " + manager.getAge() + "|| " + manager.getId()
                                                                         + "- " + manager.getLastName());
+
+            manager.setExperience(6);
+            System.out.println("our manager have " + manager.getExperience() + " years of experience in tech field.");
+            manager.manageOffice();
 
     }
 
