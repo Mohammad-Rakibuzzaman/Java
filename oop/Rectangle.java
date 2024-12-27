@@ -22,7 +22,8 @@ public class Rectangle {
         this.width = width;
     }
 
-
+    //overloading constructor
+    public Rectangle(){} //if we dont want to use this overloading then we have to set the box manually. go check and commentout this
     //creating contractor
 
     public Rectangle(int lengths, int widths) {

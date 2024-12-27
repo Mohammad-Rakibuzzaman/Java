@@ -95,6 +95,14 @@ public class JavaFirstClass {
 
         Microphone aforTech = new Microphone("A4techMini", 1251251);
 
+        System.out.println("---------practice example of inheritance of box and rect---------");
+        Box box = new Box();
+        box.setLength(120);
+        box.setWidth(12);
+        box.setHeight(14);
+        System.out.println(box.getHeight());
+        System.out.println(box.getLength());
+        System.out.println(box.getWidth());
 
     }
 
