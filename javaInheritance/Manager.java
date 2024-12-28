@@ -18,6 +18,7 @@ public class Manager extends Employee{
     }
 
 
+
     public int getExperience() {
         return experience;
     }
@@ -31,4 +32,10 @@ public class Manager extends Employee{
     }
 
 
+//    @Override
+//    public String toString() {
+//        return this.getLastName() + " ,"
+//                + this.getExperience() + " , and finally salary of annual is: "
+//                + this.getAnnualSalary();
+//    }
 }

@@ -37,7 +37,7 @@ public class Box extends Rectangle{
     }
 
     public void showResult() {
-        Box box = new Box(13, 20, 10);
+//        Box box = new Box(13, 20, 10);
         System.out.println("Box area: " + area());
     }
 

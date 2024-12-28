@@ -13,6 +13,17 @@ public class Employee extends Person {
         this.id = id;
     }
 
+
+    //creating object the ultimate class in java where all classes are inherite
+    //just type to and appear below with super....
+    @Override
+    public String toString() {
+        return this.getFirstName() + ", "
+                + this.getId() + ", "
+                + this.getAnnualSalary();
+
+    }
+
     public double getAnnualSalary() {
         return annualSalary;
     }

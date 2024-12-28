@@ -118,7 +118,7 @@ public class JavaFirstClass {
 
 
         System.out.println("-----Final answer of box overriding area of box -----");
-        Box box = new Box(13, 20, 10);
+        Box box = new Box(10, 10, 10);
 //        System.out.println("Box area: " + box.showResult());
         box.showResult();
 
