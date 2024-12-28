@@ -12,6 +12,7 @@ public class JavaFirstClass {
         StringBuilder stringbuilder = new StringBuilder();
         stringbuilder.append("Hey my name is " + name);
         stringbuilder.append(", And I'm 27 years old!!!");
+        stringbuilder.append(" also i love you!!!");
 
         System.out.println(Math.abs(-8));
         System.out.println(Math.PI);
