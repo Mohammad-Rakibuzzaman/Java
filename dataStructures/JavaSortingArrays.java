@@ -9,6 +9,7 @@ public class JavaSortingArrays {
         int[] arr = {3, 124, 12, -1, 2};
 
         System.out.println("---------------------x-----------------------");
+        System.out.println("---------------------x-----------------------");
         System.out.println("Sorting Integer");
         System.out.println("+++++++++++++++");
         System.out.println("BEFORE SORT");
@@ -25,7 +26,6 @@ public class JavaSortingArrays {
         for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
         }
-
 
         System.out.println("---------------------x-----------------------");
 
